@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerelle's Space Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+
+<body>
+	<div id="topBox">
+		<h2 class="hoverColourChange" id="resetWebButton"> Jerelle's Space Website! </h2> <!--reset webside button -->
+		<div id="topGearContainer">
+			<img id="gearIcon" src="images/lazyGearIco.png" alt="gear icon"> <!--Mob nav button -->
+		</div>
+	</div>
+	<div class="hideMobNavSideBar"> <!-- Nav menu for mobile -->
+		<ul>
+			<li><button id="mobPage1btn" data-page="1">Our Solar System</button></li>
+			<li><button id="mobPage2btn" data-page="2">Beyond our Solar System</button></li>
+			<li><button id="mobPage3btn" data-page="3">Space Travel</button></li>
+			<li><button id="mobPage4btn" data-page="4">Attributions</button></li>
+			<li><button id="mobPageHomebtn" data-page="Home">Home</button></li>
+		</ul>
+	</div>
+
+	
+	<div id="bigContainer">
+		<nav> <!--menu system for pc-->
+			<div class="navSideBar">
+				<ul>
+					<li><button id="page1btn" data-page="1">Our Solar System</button></li>
+					<li><button id="page2btn" data-page="2">Beyond our Solar System</button></li>
+					<li><button id="page3btn" data-page="3">Space Travel</button></li>
+					<li><button id="page4btn" data-page="4">Attributions</button></li>
+					<li><button id="pageHomebtn" data-page="Home">Home</button></li>
+				</ul>
+			</div>
+		</nav>
+		<main id="pagecontainer">
+			<section class="page" id="pageHome"> <!-- Page home -->
+			<header id="webTitle"> <!--Page title text-->
+				<img  src="images/spaceTitle.png" alt="space title"> <!--Big 'SPACE' image for home page-->
+			</header>
+			<h1> &#129680; Hello and welcome to Jerelle's <span class="purpleHighlight">space </span>website &#129680; </h1> <!-- start of Foreword -->
+			<p>
+				Here, I'll be sharing information about space related subjects, namely: 
+			</p>
+			<ul>
+				<li class= "yellowHighlight">Planets in our solar system</li>
+				<li class= "yellowHighlight">stuff beyond our solar system</li>
+				<li class= "yellowHighlight">space travel</li>
+			</ul>
+			<p class="purpleHighlight">
+				But first, why can you trust me with the information that will be provided in this website?
+			</p>
+			<p>
+				Though I am not a complete expert on all things space related,
+				I've been interested in the field for a long time. 
+				Also I've participated in
+				<a class="yellowHighlight hoverColourChange" href="https://www.astrochallenge.org/" target="_blank">AstroChallenge</a> 2025,
+				which was jointly hosted by NUS and NTU <span class="purpleHighlight">(though I didn't get anything notable)</span>
+			</p> <!-- End of foreword -->
+			<hr> 
+			<h1> &#10024; What is <span class="purpleHighlight">Space? </span>&#10024; </h1> <!-- First informational part -->
+			<p>
+				<span class="purpleHighlight">Outer space, </span> or simply <span class="purpleHighlight">space, </span>
+				is the expanse that exists beyond Earth's atmosphere and between celestial bodies.
+			</p>
+			<p> 
+				Within space, there are Solar Systems, which consists of a <span class="yellowHighlight">star </span> and the 
+				<span class="purpleHighlight">celestial objects(planets, moons, asteroids)</span> bound to it by gravity. 
+				We live on earth which is in a solar system. our solar system is aptly and deservedly dubbed 
+			</p>
+			<p class="yellowHighlight"> 
+			"The Solar System"
+			</p>
+			<hr> <!-- End of first informational part -->
+			<h1>  <!-- start of second informational part -->
+				&#127765; Why you should care about <span class="purpleHighlight">Space &#127765;</span>
+			</h1>
+			<p>
+				While space might seem like just a cool thing to be hyperfixated on,
+				finding out more about space has inadvertently led to many <span class="purpleHighlight">inventions </span> 
+				that assist us in our day to day lives, one such example being the <span class="purpleHighlight">GPS. </span>
+				This means that the further <span class="yellowHighlight">studying and exploration of space </span> could 
+				lead us to many great inventions in the future. 
+			</p>
+			<p class="purpleHighlight">
+				Also space is just fascinating.
+			</p> <!-- End of second informational part -->
+			<hr>
+			<h1><!--Space facts section-->
+				 &#127756; Cool <span class="purpleHighlight">Space </span> Facts &#127756;
+			</h1>
+			<div id="factBox">
+				<p class="yellowHighlight"> Space Fact generator 9000 </p>
+				<p class="purpleHighlight" id="factAns"> no one will ever see this placeholder fact </p>
+				<button id="factButton"> Next Fact </button>
+			</div>
+			<hr>
+			<div id="QRsection"> <!--Qr code section -->
+				<h1>
+					 &#127756; watch REAL live telescope footage &#127756;
+				</h1>
+				<img src="images/telescopeQR.png" alt="qr code for live telescope">
+			</div>
+			</section> <!-- End of page home -->
+			
+			<section class="page" id="page1"> <!-- Page 1------------------------------------------------ -->
+				<h1 class="pageTitle"> &#127757; Our <span class="purpleHighlight">Solar System</span> &#127757;</h1>
+				<p>
+					Our solar system consists of 8 planets and a sun, in order from closest to the <span class="yellowHighlight">Sun </span>, 
+					they are<span class="purpleHighlight"> Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</span> 
+				</p>
+				<hr>
+				<h1> &#9728; The Sun &#9728; </h1>
+				<div class="sideBySideLeft"> <!-- Sun -->
+					<img src="images/sun.png" alt="sun image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 1.9891 x 10^30 kilograms</p>
+						<p class="purpleHighlight"> Approx. Age: 4,500,000,000 years</p>
+						<p> 
+							The <span class="yellowHighlight">Sun</span> is the <span class="yellowHighlight">star</span> located at the centre of the 
+							<span class="purpleHighlight">Solar System. </span>
+							It is a massive sphere of <span class="yellowHighlight">hot plasma </span>, heated to incandescence by <span class="yellowHighlight">nuclear fusion</span>
+							reactions in its core, 
+							radiating the energy from its surface mainly as visible light and infrared radiation with 10% at ultraviolet
+							energies. <span class="purpleHighlight">It is the main source of energy for life on Earth. </span>
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#127761; Mercury &#127761; </h1>
+				<div class="sideBySideRight"> <!-- Mercury -->
+					<img src="images/mercury.png" alt="mercury image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 3.30 x 10^23 kilograms</p>
+						<p> 
+							<span class="purpleHighlight">Mercury</span> is the first planet from the <span class="yellowHighlight">Sun</span> 
+							and the smallest in the <span class="purpleHighlight">Solar System.</span>
+							It is a rocky planet with a trace atmosphere and a surface gravity slightly
+							higher than that of <span class="yellowHighlight">Mars</span>
+							The surface of Mercury is similar to Earth's <span class="purpleHighlight">Moon</span>, being cratered, with an expansive rupes system 
+							generated from thrust faults, and bright ray systems, formed by ejecta. 
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1> &#127765; Venus &#127765; </h1>
+				<div class="sideBySideLeft"> <!-- Venus -->
+					<img src="images/venus.png" alt="venus image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 4.867 x 10^24 kilograms</p>
+						<p> 
+							<span class="yellowHighlight">Venus</span> is the second planet from the <span class="yellowHighlight">Sun.</span>
+							Similar in size and mass to <span class="purpleHighlight">Earth,</span><span class="yellowHighlight"> Venus</span>
+							has no liquid water, and its atmosphere is far thicker and denser
+							than that of any other rocky body in the <span class="purpleHighlight">Solar System. </span>
+							The atmosphere is composed mostly of carbon dioxide and has a thick cloud layer of sulfuric acid
+							that spans the whole planet.
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#127757; Earth &#127757; </h1>
+				<div class="sideBySideRight"> <!-- Earth -->
+					<img src="images/earth.png" alt="earth image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 5.9722 x 10^24 kilograms</p>
+						<p> 
+							Earth is the third planet from the <span class="yellowHighlight">Sun</span> and the only
+							<span class="purpleHighlight">astronomical object</span> known to harbor life.
+							This is made possible by <span class="purpleHighlight">Earth</span> being an ocean world, the only one in the 
+							<span class="purpleHighlight">Solar System</span> sustaining
+							liquid surface water. Almost all of <span class="purpleHighlight">Earth's</span>
+							water is contained in its ocean, which covers 70.8% of <span class="purpleHighlight">Earth's</span>
+							crust. The remaining 29.2% of <span class="purpleHighlight">Earth's</span> crust is land, which is predominantly located within Earth's land hemisphere
+							in the form of continental landmasses.
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1> &#127765; Mars &#127765; </h1>
+				<div class="sideBySideLeft"> <!-- Mars -->
+					<img src="images/mars.png" alt="mars image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 6.417 x 10^23 kilograms</p>
+						<p> 
+							Mars is the fourth planet from the <span class="yellowHighlight">Sun.</span> 
+							It is also known as the <span class="yellowHighlight">"Red Planet",</span>
+							for its orange-red appearance. Mars is a desert-like rocky planet with a tenuous 
+							atmosphere that is primarily carbon dioxide (CO2). At the average surface level the 
+							atmospheric pressure is a few thousandths of<span class="purpleHighlight"> Earth's,</span> atmospheric 
+							temperature ranges from <span class="yellowHighlight">−153 to 20 °C </span>
+							, and <span class="yellowHighlight">cosmic radiation</span> is high. <span class="yellowHighlight">Mars</span> 
+							retains some water, in the ground as well as thinly in the atmosphere,
+							forming cirrus clouds, fog, frost, larger polar regions of permafrost and ice caps (with seasonal CO2 snow),
+							but no bodies of liquid surface water. 
+							Its surface gravity is roughly a third of <span class="purpleHighlight">Earth's</span> 
+							or double that of the <span class="purpleHighlight">Moon.</span>
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1> &#129680; Jupiter &#129680; </h1>
+				<div class="sideBySideRight"> <!-- Jupiter -->
+					<img src="images/jupiter.png" alt="jupiter image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 1.89813 x 10^27 kilograms</p>
+						<p> 
+							Jupiter is the fifth planet from the <span class="yellowHighlight">Sun,</span> 
+							and the largest in the <span class="purpleHighlight">Solar System. </span>
+							This is a <span class="purpleHighlight">gas giant</span> with a mass nearly 2.5 times that of all the other planets 
+							in the <span class="purpleHighlight">Solar System</span> combined and 
+							slightly less than one-thousandth the mass of the <span class="yellowHighlight">Sun.</span>
+							Its diameter is 11 times that of Earth and a tenth that of the <span class="yellowHighlight">Sun.</span>
+							<span class="yellowHighlight">Jupiter</span> orbits the<span class="yellowHighlight"> Sun</span>
+							at a distance of 5.20 AU (778.5 Gm), with an orbital period 
+							of 11.86 years. <span class="yellowHighlight">Jupiter</span> is the
+							third-brightest natural object in the <span class="purpleHighlight">Earth's </span>night sky, 
+							after the <span class="purpleHighlight">Moon</span> and <span class="yellowHighlight">Venus,</span> and has been 
+							observed since prehistoric times. 
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1> &#129680; Saturn &#129680; </h1>
+				<div class="sideBySideLeft"> <!-- Saturn -->
+					<img src="images/saturn.png" alt="saturn image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 5.685 x 10^26 kilograms</p>
+						<p> 
+							<span class="yellowHighlight">Saturn</span> is the sixth planet from the <span class="yellowHighlight">Sun</span>
+							and the second largest in the <span class="purpleHighlight">Solar System, </span>
+							after <span class="yellowHighlight">Jupiter.</span> It is a gas giant,
+							with an average radius of about 9 times that of <span class="purpleHighlight">Earth.</span>
+							It has an eighth of the average density of <span class="purpleHighlight">Earth,</span> but is over 95 times more massive. 
+							Even though <span class="yellowHighlight">Saturn</span> is almost as big as <span class="yellowHighlight">Jupiter,</span>
+							<span class="yellowHighlight">Saturn </span>has less than a third of its mass. 
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#128309; Uranus &#128309; </h1>
+				<div class="sideBySideRight"> <!-- Uranus -->
+					<img src="images/uranus.png" alt="uranus image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 8.68 x 10^25 kilograms</p>
+						<p> 
+							<span class="purpleHighlight">Uranus</span> is the seventh planet from the Sun.
+							It is a gaseous cyan-coloured <span class="purpleHighlight">ice giant. </span>
+							Most of the planet is made of water, ammonia, and methane in a <span class="purpleHighlight">supercritical phase of matter, </span>
+							which astronomy calls "ice" or volatiles. The planet's atmosphere has a complex layered cloud 
+							structure and has the <span class="purpleHighlight">lowest minimum temperature (−224 °C)</span> 
+							of all the <span class="purpleHighlight">Solar System's</span> planets.
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#128309; Neptune &#128309; </h1>
+				<div class="sideBySideLeft"> <!-- Neptune -->
+					<img src="images/neptune.png" alt="neptune image">
+					<div class="columnText">
+						<p class="purpleHighlight"> Approx. Mass: 1.024 x 10^26 kilograms</p>
+						<p> 
+							<span class="purpleHighlight">Neptune </span>is the eighth 
+							and farthest known planet orbiting the <span class="yellowHighlight">Sun. </span>
+							It is the fourth-largest planet in the <span class="purpleHighlight">Solar System </span> by diameter, 
+							the third-most-massive planet, and the densest giant planet. It is 17 times the mass of <span class="purpleHighlight">Earth.</span> 
+							Compared to <span class="yellowHighlight">Uranus,</span> its neighbouring ice giant, 
+							<span class="purpleHighlight">Neptune</span> is slightly smaller, but more massive and dense.
+							Being composed primarily of gases and liquids, it has no well-defined solid surface. 
+						</p>
+					</div>
+				</div>
+								<h1>Test your knowledge!</h1> <!-- QUIZZZZZZ -->
+					<fieldset>
+						<legend>1. What is another name for Mars?</legend>
+						<label class="inline purpleHighlight"><input type="radio" name="q1" value="q1a1"> Dust Sphere</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q1" value="q1a2"> The little Red Dot</label>
+						<label class="inline purpleHighlight"><input type="radio" name="q1" value="q1a3"> Red Planet</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q1" value="q1a4"> Red Sand Planet</label>
+					</fieldset>
+					<fieldset>
+						<legend>2. Venus has a thick cloud layer composed of _____</legend>
+						<label class="inline purpleHighlight"><input type="radio" name="q2" value="q2a1"> Carbon Dioxide</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q2" value="q2a2"> Sulfuric Acid</label>
+						<label class="inline purpleHighlight"><input type="radio" name="q2" value="q2a3"> Carbon Monoxide</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q2" value="q2a4"> Lead Fumes</label>
+					</fieldset>
+					<fieldset>
+						<legend>3. Which planet is closest to the sun</legend>
+						<label class="inline purpleHighlight"><input type="radio" name="q3" value="q3a1"> Mercury</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q3" value="q3a2"> Mars</label>
+						<label class="inline purpleHighlight"><input type="radio" name="q3" value="q3a3"> Earth</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q3" value="q3a4"> Uranus</label>
+					</fieldset>
+					<fieldset>
+						<legend>4. Which planet has the lowest minimum  temperature</legend>
+						<label class="inline purpleHighlight"><input type="radio" name="q4" value="q4a1"> Neptune</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q4" value="q4a2"> Earth</label>
+						<label class="inline purpleHighlight"><input type="radio" name="q4" value="q4a3"> Saturn</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q4" value="q4a4"> Uranus</label>
+					</fieldset>
+					<fieldset>
+						<legend>5. How does the sun sustain it's energy?</legend>
+						<label class="inline purpleHighlight"><input type="radio" name="q5" value="q5a1"> Nuclear Fission</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q5" value="q5a2"> Coal</label>
+						<label class="inline purpleHighlight"><input type="radio" name="q5" value="q5a3"> Explosions</label>
+						<label class="inline yellowHighlight"><input type="radio" name="q5" value="q5a4"> Nuclear Fusion</label>
+					</fieldset>
+					<button id="btnSubmit">Submit Quiz</button>
+					<p id="scorebox">Not submitted</p>
+			</section>
+			<section class="page" id="page2"> <!-- Page 2 ------------------------------------------------->
+				<h1 class="pageTitle"> &#127757; Beyond our <span class="purpleHighlight">Solar System</span> &#127757;</h1>
+				<p>
+					Beyond <span class="purpleHighlight">our solar system</span> lies <span class="yellowHighlight">interstellar space</span>, a vast region
+					filled with <span class="purpleHighlight">gas, dust, and magnetic fields</span> of the
+					<span class="yellowHighlight">Milky Way</span>. It is dominated by
+					<span class="purpleHighlight">exoplanets</span>—over <span class="yellowHighlight">6,000</span> of which have been confirmed—and
+					<span class="purpleHighlight">deep-sky objects</span> like nebulae, <span class="yellowHighlight">pulsars</span>, and <span class="purpleHighlight">black holes</span>.
+					Only a handful of <span class="yellowHighlight">human-made probes</span>, such as
+					<span class="purpleHighlight">NASA's Voyager 1</span>, have ever pierced through the <span class="yellowHighlight">Sun's protective bubble</span> to explore this realm.
+					This page will be going through some of the <span class="purpleHighlight">celestial objects</span> that lie
+					<span class="yellowHighlight">outside our solar system</span>.
+				</p>
+				<hr>
+				<h1 class="purpleHighlight"> &#127756; The Milky Way &#127756; </h1>
+				<div class="sideBySideLeft"> <!-- Mikly Way-->
+					<img src="images/milkyWay.jpg" alt="milky way">
+					<div class="columnText">
+						<p>
+							The <span class="purpleHighlight">Milky Way</span> is the <span class="yellowHighlight">galaxy</span> that includes the 
+							<span class="purpleHighlight">Solar System</span>, with the name describing the galaxy's appearance from Earth: a 
+							<span class="yellowHighlight">hazy band of light</span> seen in the night sky formed from <span class="purpleHighlight">stars</span> in other arms of the galaxy,
+							which are so far away that they cannot be individually distinguished by the <span class="yellowHighlight">naked eye</span>.
+						</p>
+
+						<p>
+							It is estimated to contain <span class="purpleHighlight">100–400 billion stars</span> and at least that number of 
+							<span class="yellowHighlight">planets</span>. The <span class="purpleHighlight">Solar System</span> is located about 
+							<span class="yellowHighlight">27,000 light-years</span> from the  <span class="purpleHighlight">Galactic Center</span>, on the inner edge of the 
+							<span class="yellowHighlight">Orion Arm</span>, one of the  <span class="purpleHighlight">spiral-shaped concentrations of gas and dust</span>.
+						</p>				
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#127756; Nebulae &#127756; </h1>
+				<div class="sideBySideRight"> <!-- Nebula -->
+					<img src="images/nebula.jpg" alt="nebula">
+					<div class="columnText">
+						<p>
+							A <span class="purpleHighlight">nebula</span> is a distinct luminescent part of the
+							<span class="yellowHighlight">interstellar medium</span>, which can consist of
+							<span class="purpleHighlight">ionized, neutral, or molecular hydrogen</span> 
+							as well as <span class="yellowHighlight">cosmic dust</span>. Nebulae are often <span class="purpleHighlight">star-forming regions</span>, 
+							such as the <span class="yellowHighlight">Pillars of Creation</span> in the <span class="purpleHighlight">Eagle Nebula</span>. 
+							In these regions, the formations of <span class="yellowHighlight">gas, dust, and other materials</span> "clump" together to form
+							<span class="purpleHighlight">denser regions</span>, which attract even more matter and
+							eventually become <span class="yellowHighlight">dense enough to form stars</span>. The remaining material is then thought to form
+							<span class="purpleHighlight">planets</span> and other <span class="yellowHighlight">planetary system objects</span>.
+						</p>						
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#9899; Black Holes &#9899; </h1>
+				<div class="sideBySideLeft"> <!-- Black Hole -->
+					<img src="images/blackHole.jpg" alt="black hole">
+					<div class="columnText">
+						<p>
+							A <span class="purpleHighlight">black hole</span> is an
+							<span class="yellowHighlight">astronomical body</span> so compact that its
+							gravity prevents <span class="purpleHighlight">anything—even light—from escaping.</span>
+							The point of no return is known as the <span class="purpleHighlight">event horizon.</span>
+							<span class="yellowHighlight">Albert Einstein's</span> theory of <span class="purpleHighlight">general relativity</span>, which describes gravity as the
+							curvature of <span class="yellowHighlight">spacetime</span>, predicts that any sufficiently compact <span class="purpleHighlight">mass</span> can form a black hole.
+							Crossing the <span class="yellowHighlight">event horizon</span> traps an object inside, but according to <span class="purpleHighlight">general relativity</span>, it produces
+							no <span class="yellowHighlight">locally detectable change</span> for the object at that instant. The theory also predicts that every
+							<span class="purpleHighlight">black hole</span> contains a <span class="yellowHighlight">central singularity</span>, where the curvature of
+							<span class="purpleHighlight">spacetime</span> becomes <span class="yellowHighlight">infinite.</span>
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#128171; Pulsars &#128171; </h1>
+				<div class="sideBySideRight"> <!-- Pulsar -->
+					<img src="images/pulsar.png" alt="pulsar">
+					<div class="columnText">
+						<p>
+							A <span class="purpleHighlight">pulsar</span> is a highly magnetized, <span class="yellowHighlight">rapidly rotating neutron star</span> that emits beams of
+							<span class="purpleHighlight">electromagnetic radiation</span> from its magnetic poles. These beams are only visible when they sweep past
+							<span class="yellowHighlight">Earth</span>, giving pulsars their distinctive <span class="purpleHighlight">pulsing appearance</span>. 
+							Neutron stars are incredibly <span class="yellowHighlight">dense</span> and spin with remarkably regular periods,
+							producing pulses that range from <span class="purpleHighlight">milliseconds to seconds</span>. Because of their precise,
+							predictable signals, pulsars are often used by astronomers as <span class="yellowHighlight">cosmic clocks</span>, and they are also considered one of the
+							leading candidates for the source of <span class="purpleHighlight">ultra-high-energy cosmic rays</span>.
+						</p>
+					</div>
+				</div>
+				<hr>
+				<h1 class="purpleHighlight"> &#127761; Exo-Planets &#127761; </h1>
+				<div class="sideBySideLeft"> <!-- Exo Planet -->
+					<img src="images/mercury.png" alt="exo planet">
+					<div class="columnText">
+						<p>
+							An <span class="purpleHighlight">exoplanet</span>, or <span class="yellowHighlight">extrasolar planet</span>, is a planet located
+							<span class="purpleHighlight">outside our Solar System</span>. The first confirmed detection of an exoplanet was made in
+							<span class="yellowHighlight">1992</span>, when one was discovered orbiting a <span class="purpleHighlight">pulsar</span>, while the first exoplanet found around a
+							<span class="yellowHighlight">main-sequence star</span> was confirmed in <span class="purpleHighlight">1995</span>. Interestingly, another planet that was first
+							detected in <span class="yellowHighlight">1988</span> was only officially confirmed in
+							<span class="purpleHighlight">2003</span>, and evidence of a possible exoplanet had	even been recorded as early as <span class="yellowHighlight">1917</span>. 
+							As of <span class="purpleHighlight">2 July 2026</span>, astronomers have confirmed <span class="yellowHighlight">6,316 exoplanets</span> across
+							<span class="purpleHighlight">4,725 planetary systems</span>, with <span class="yellowHighlight">1,055 systems</span> containing more than one planet.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="page" id="page3"> <!-- Page 3 -->
+				<h1 class="pageTitle purpleHighlight"> &#128640; Space Travel &#128640;</h1>
+				<p>
+					<span class="yellowHighlight">Soviet cosmonaut Yuri Gagarin</span>, who launched aboard <span class="purpleHighlight">Vostok 1</span> on
+					<span class="yellowHighlight">12 April 1961</span>. During his historic <span class="purpleHighlight">108-minute mission</span>, Gagarin completed one full orbit
+					of <span class="yellowHighlight">Earth</span>, proving that human spaceflight was possible. Just over eight years later, on
+					<span class="purpleHighlight">20 July 1969</span>, NASA's <span class="yellowHighlight">Apollo 11</span> mission achieved another milestone when
+					<span class="purpleHighlight">Neil Armstrong</span> and <span class="yellowHighlight">Buzz Aldrin</span> landed their lunar module in the
+					<span class="purpleHighlight">Sea of Tranquility</span>. Armstrong became the <span class="yellowHighlight">first person to walk on the Moon</span>, accomplishing what
+					many people had once believed to be <span class="purpleHighlight">impossible</span>. Although <span class="yellowHighlight">space travel</span> is still limited today, continued
+					advancements in <span class="purpleHighlight">space exploration</span> could one provide humanity with access to new <span class="yellowHighlight">resources</span>, enable
+					<span class="purpleHighlight">interplanetary travel</span>, and revolutionize the future of our civilization.
+				</p>
+				<hr>
+				<h1 class="pageTitle purpleHighlight"> &#128640; Why Space Travel? &#128640;</h1>
+				<p>
+					<span class="yellowHighlight">Improvements in space travel</span> will open many <span class="purpleHighlight">gateways for humanity</span>, including research into
+					<span class="yellowHighlight">extraterrestrial planets</span> for <span class="purpleHighlight">valuable resources</span>, the search for
+					<span class="yellowHighlight">another habitable planet</span> similar to <span class="purpleHighlight">Earth</span>, and continued
+					<span class="yellowHighlight">advancements in technology</span>. Currently, <span class="purpleHighlight">the limits of space remain unknown</span>, so future
+					discoveries made through improved <span class="yellowHighlight">space exploration</span> could
+					<span class="purpleHighlight">redefine society</span>, spearhead the development of <span class="yellowHighlight">innovative technologies</span>, and give more people access
+					to our currently <span class="purpleHighlight">limited resources</span>.
+				</p>
+				<hr>
+				<h1 class="pageTitle purpleHighlight"> &#127765; Symbolism of the Moon Landing &#127765;</h1>
+				<p>
+					The <span class="purpleHighlight">Moon landing</span> became a lasting symbol of <span class="yellowHighlight">human 
+					ambition</span>, courage, and innovation. When <span class="purpleHighlight">Neil Armstrong</span> first stepped onto 
+					the Moon on <span class="yellowHighlight">20 July 1969</span>, it proved that even the most 
+					<span class="purpleHighlight">impossible dreams</span> could become reality through science, determination,
+					and teamwork. Today, it continues to inspire new generations to explore <span class="yellowHighlight">space</span> 
+					and push the boundaries of what humanity can achieve.
+				</p>
+				<hr>
+				<div id="gameContainer"> <!-- game, everything inside is game objects -->
+					<div id="gamePlayer"></div>
+					<p id="gameTimer" class="yellowHighlight">Press 'Reset Game' to start</p>
+					
+					<div id="gameMobButts">
+						<button id="gameUpButton"> Up </button>
+						<button id="gameDownButton"> Down </button>
+						<button id="gameLeftButton"> Left </button>
+						<button id="gameRightButton"> Right </button>
+					</div>
+				</div>
+				<button id="gameReset">Reset Game </button>
+			</section>
+			<section class="page" id="page4"> <!-- PAGE 4 -->
+				<h1 class="pageTitle purpleHighlight"> Attribution</h1>
+				<div class="centerImages">
+					<img  src="images/pulsar.png" alt="space title">
+					<p>Pulsar image by <a  target="_blank" href="https://www.wired.com/story/nasa-just-proved-it-can-navigate-space-using-pulsars-where-to-now/">WIRED</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/blackHole.jpg" alt="space title">
+					<p>An illustration of a black hole. (Image credit: Mark Garlick/Science Photo Library/Getty Images) licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/nebula.jpg" alt="space title">
+					<p>Trifid_Nebula_by_Deddy_Dayag licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/milkyWay.jpg" alt="space title">
+					<p>Image of milky way by Y. Beletsky licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/neptune.png" alt="space title">
+					<p>Image of Neptune from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/uranus.png" alt="space title">
+					<p>Image of Uranus from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/saturn.png" alt="space title">
+					<p>Image of Saturn from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/jupiter.png" alt="space title">
+					<p>Image of Jupiter from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/mars.png" alt="space title">
+					<p>Image of Mars from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/earth.png" alt="space title">
+					<p>Image of Earth from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/venus.png" alt="space title">
+					<p>Image of Venus from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/mercury.png" alt="space title">
+					<p>Image of Mercury from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/sun.png" alt="space title">
+					<p>Image of Sun from <a target="_blank" href="https://pngtree.com/">PNGTree</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+				<div class="centerImages">
+					<img  src="images/starfallCompressedLv2.gif" alt="space title">
+					<p>stars gif from <a target="_blank" href="https://gifcities.org/">GIFcities</a> licensed under CC by 4.0  </p>
+				</div>
+				<hr>
+			</section>
+			
+		</main>
+	</div>
+</body>

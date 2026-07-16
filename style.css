@@ -1,0 +1,404 @@
+@font-face 
+{
+    font-family: 'RomanceA';
+    src: url('./fonts/RomanceA.ttf') format('truetype');
+}
+
+
+fieldset
+{
+	border: 2px solid rgb(127, 88, 138);
+	
+}
+img{
+	width:30%;
+	height:30%;
+}
+
+nav ul li{display:inline;}
+
+body
+{
+	background-image: url('images/observatory.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+a
+{
+	color: rgb(165, 132, 228);
+	text-shadow: 0 0 8px rgb(165, 132, 228);
+}
+p{
+	font-family: RomanceA; 
+	color: rgb(224, 213, 245); 
+	font-size: 2vw; 
+	text-align: center;
+}
+legend
+{
+	font-family: RomanceA; 
+	color: rgb(224, 213, 245); 
+	font-size: 2vw; 
+}
+label
+{
+	font-family: RomanceA; 
+	color: rgb(224, 213, 245); 
+	font-size: 2vw; 
+	text-align: center;
+}
+li{
+	font-family: RomanceA; 
+	color: rgb(224, 213, 245); 
+	font-size: 2vw; 
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+hr
+{
+	border: none;
+  height: 2px; 
+  background: linear-gradient(to right, #261547, #ffcc00 , #261547);
+}
+h1
+{
+	font-family: RomanceA; 
+	color: rgb(255, 204, 0);
+	text-shadow: 0 0 8px rgb(255, 204, 0);
+	text-align: center;
+}
+button
+{
+	background-image: url('images/starfallCompressedLv2.gif');  
+	width: 50%;
+	height: 45px;
+	border-color: rgb(165, 132, 228);
+	border-radius: 6px;
+	font-family: RomanceA; 
+	color: rgb(255, 204, 0);
+	text-shadow: 0 0 8px rgb(255, 204, 0);
+	box-shadow: 0px 0px 5px rgb(165, 132, 228);
+	transition: 0.5s;
+	cursor: pointer;
+}
+button:hover
+{
+	transition: 0.2s;
+	width: 55%;
+	height: 50px;
+}
+
+/* CSS FOR CLASSES */
+.page
+{
+	width:75vw;
+	min-height: 900px;
+	transition:0.9s;
+	border: 2px solid rgb(127, 88, 138);
+	box-shadow: inset 2px 2px 90px rgba(165, 132, 228, 0.5);
+	padding: 8px;
+}
+.pageTitle
+{
+	font-size: 300%;
+}
+.inline{
+	display:inline;
+}
+.hideMobNavSideBar
+{
+	background-image: url('images/observatory.gif');  
+	display: none;
+	/*background-color: rgba(44, 2, 59, 0.7); */
+	color: rgb(237, 235, 109);
+	width:95%;
+	height: 100%;
+	text-shadow: 0 0 8px rgb(237, 235, 109);
+	border-radius: 10px;
+	border: 3px solid rgb(127, 88, 138);
+	box-shadow: inset 2px 2px 90px rgba(21, 31, 87, 1);
+	
+}
+
+.navSideBar
+{
+	background-image: url('images/observatory.gif');  
+	display: flex;
+	/*background-color: rgba(44, 2, 59, 0.7); */
+	color: rgb(237, 235, 109);
+	width:95%;
+	height: 100%;
+	text-shadow: 0 0 8px rgb(237, 235, 109);
+	border-radius: 10px;
+	border: 3px solid rgb(127, 88, 138);
+	box-shadow: inset 2px 2px 90px rgba(21, 31, 87, 1);
+}
+.navSideBar button
+{
+	margin: 10% auto;
+	width: 90%;
+}
+.navSideBar button:hover
+{
+	margin: 10% auto;
+	width: 95%;
+}
+.yellowHighlight
+{
+	color: rgb(255, 204, 0);
+	text-shadow: 0 0 8px rgb(255, 204, 0);
+	
+}
+.purpleHighlight
+{
+	color: rgb(165, 132, 228);
+	text-shadow: 0 0 8px rgb(165, 132, 228);
+}
+.hoverColourChange:hover
+{
+	color: rgb(250, 158, 0);
+	text-shadow: 0 0 8px rgb(250, 158, 0);
+	transition: 0.4s;
+	cursor: pointer;
+}
+.sideBySideLeft
+{
+	display: flex;
+}
+.sideBySideLeft > .columnText
+{
+	flex-direction: column;
+	text-align: center;
+	
+}
+.sideBySideRight
+{
+	display: flex;
+	flex-direction:row-reverse;
+}
+.sideBySideRight > .columnText
+{
+	flex-direction: column;
+	text-align: center;
+	
+}
+.centerImages
+{
+	flex-direction:column;
+	align-items:center;
+	display:flex;
+}
+/*CSS FOR IDs */
+#page1{background:rgba(15, 3, 38, 0.9);}
+#page2{background:rgba(15, 3, 38, 0.9);}
+#page3{background:rgba(15, 3, 38, 0.9);}
+#page4{background:rgba(15, 3, 38, 0.9);}
+#pageHome{background: rgba(15, 3, 38, 0.9);}
+#bigContainer
+{
+	display: flex;
+	width: 100%;
+}
+#gearIcon
+{
+	display:none;
+	height:40px;
+	width:40px;
+	position: absolute;
+	top: 33px;    
+	right: 30px;
+	
+}
+#topBox
+{
+	/*background-color: rgba(44, 2, 59, 0.7); */
+	background-image: url('images/starfallCompressedLv2.gif');  
+	color: rgb(237, 235, 109);
+	width:100%;
+	border: 3px dashed rgb(237, 235, 109);
+	text-shadow: 0 0 8px rgb(237, 235, 109);
+	border-radius: 5px;
+	height:80px; 
+	font-family: RomanceA;
+	font-size: 2vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+#factBox
+{
+	padding-bottom: 15px;
+	width: 20vw;
+    min-height: 20vh;
+    background-image: url('images/observatory.gif');
+	background-size: cover;
+    margin: 0 auto;
+	border-radius: 10px;
+	border: 2px solid rgb(127, 88, 138);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+}
+#webTitle
+{
+	display: flex;
+	justify-content: center;
+}
+#webTitle img
+{
+	width: 70%;
+}
+
+
+
+/*CSS for game*/
+#gameContainer
+{
+	position: relative;
+	background-image: url('images/space.jpg');
+	image-rendering: pixelated;
+	width:500px;
+	height:500px;
+	border-radius: 10px;
+	border: 3px solid rgb(127, 88, 138);
+	box-shadow: inset 2px 2px 90px rgba(21, 31, 87, 1);
+	margin: 20px auto;
+}
+#gamePlayer
+{
+	position: absolute;
+	width:10%;
+	height:10%;
+	/*background-color: blue; */
+	top: 44%; /* min-max 0-90 */
+	left: 44%; /* min-max 0-90 */
+	display:inline-block;
+	background-image: url('images/spaceShipSS.png');
+	background-size:100px 50px;
+	background-repeat: no-repeat;
+	image-rendering: pixelated;
+}
+.gameMeteor
+{
+	position: absolute;
+	background-image: url('images/meteor.png');
+	background-repeat: no-repeat;
+	image-rendering: pixelated;
+	width:7%;
+	height:7%;
+	/*background-color: green;*/
+	top: 0%; /* min-max 0-90 */
+	left: 0%; /* min-max 0-90 */
+	display:inline-block;
+}
+#gameReset
+{
+	display: block;
+	margin: 0px auto;
+}
+#gameMobButts
+{
+	display:none;
+}
+/*----------------------------------*/
+
+#factAns
+{
+	width: 90%;
+    overflow-wrap: break-word;
+}
+#QRsection
+{
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+}
+
+
+/* animations ---------------------*/
+/*Keyframes*/
+@keyframes gearSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gearSpinRev {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+/*animation classes*/
+.animateRotate {
+  animation: gearSpin 1s ease-out;
+}
+.animateRotateRev {
+  animation: gearSpinRev 1s ease-out;
+}
+
+
+@media (max-width:800px) /*Mobile css*/
+{
+	
+
+	.navSideBar
+	{
+		display: none;
+		width:0vw;
+	}
+	.showMobNavBar
+	{
+		display: block;
+		width:auto;
+	}
+	.page
+	{
+		width:93vw;
+	}
+	p{
+	font-family: RomanceA; 
+	color: rgb(224, 213, 245); 
+	font-size: 3vw; 
+	text-align: center;
+	}
+	.sideBySideRight
+	{
+		flex-direction:column;
+		align-items:center;
+	}
+	.sideBySideLeft
+	{
+		flex-direction:column;
+		align-items:center;
+	}
+	#QRsection
+	{
+		display:none;
+	}
+	#gearIcon
+	{
+		display:block;
+	}
+	#gameMobButts
+	{
+		position: absolute;
+		bottom: 5%;
+		width: 100%;
+
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+	}
+}
+
