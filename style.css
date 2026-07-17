@@ -234,6 +234,7 @@ button:hover
 {
 	padding-bottom: 15px;
 	width: 20vw;
+	min-width: 200px;
     min-height: 20vh;
     background-image: url('images/observatory.gif');
 	background-size: cover;
@@ -263,8 +264,8 @@ button:hover
 	position: relative;
 	background-image: url('images/space.jpg');
 	image-rendering: pixelated;
-	width:500px;
-	height:500px;
+	width:40vw;
+	height:40vw;
 	border-radius: 10px;
 	border: 3px solid rgb(127, 88, 138);
 	box-shadow: inset 2px 2px 90px rgba(21, 31, 87, 1);
@@ -280,7 +281,7 @@ button:hover
 	left: 44%; /* min-max 0-90 */
 	display:inline-block;
 	background-image: url('images/spaceShipSS.png');
-	background-size:100px 50px;
+	background-size:200% 100%;
 	background-repeat: no-repeat;
 	image-rendering: pixelated;
 }
@@ -288,6 +289,7 @@ button:hover
 {
 	position: absolute;
 	background-image: url('images/meteor.png');
+	background-size:100%;
 	background-repeat: no-repeat;
 	image-rendering: pixelated;
 	width:7%;

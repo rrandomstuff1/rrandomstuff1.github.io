@@ -235,7 +235,7 @@ const animatePlayer = setInterval(Animate, 200);
 function Animate() //Animate the player sprite
 {
 	playerFrame = (playerFrame + 1) % 2;
-    player.style.backgroundPositionX = -(playerFrame * 50) + "px";
+    player.style.backgroundPositionX = -(playerFrame * -100) + "%";
 }
 //Player movement detection
 //Pc movement////////////////////////////////////////
