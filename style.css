@@ -308,6 +308,10 @@ button:hover
 {
 	display:none;
 }
+#gameMobButts button
+{
+	height: 20%;
+}
 /*----------------------------------*/
 
 #factAns

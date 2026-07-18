@@ -13,7 +13,7 @@ const pageHomebtn=document.querySelector("#pageHomebtn");
 const allpages=document.querySelectorAll(".page"); //reference all pages
 //Audio for webside
 const gameDeathSfx = new Audio("audio/boom.wav");
-const buttonSfx = new Audio('audio/button.wav');
+const buttonSfx = new Audio('audio/button.mp3');
 
 function hideall() //function to hide all pages
 { 
@@ -367,7 +367,10 @@ function GameTick()
 		let distance = Math.sqrt((posX+5-(meteor.x+3.5))*(posX+5-(meteor.x+3.5)) + (posY+5-(meteor.y+3.5))*(posY+5-(meteor.y+3.5)));
 		if (distance < 5.2 && !gameOver)
 		{
-			gameDeathSfx.play();
+			if (document.querySelector("#page3").style.display == 'block')
+			{
+				gameDeathSfx.play();
+			}
 			gameOver = true;
 			player.style.display = "none";
 		}
