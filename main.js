@@ -1,15 +1,3 @@
-//get reference to all page buttons
-const mobPage1btn=document.querySelector("#mobPage1btn");
-const mobPage2btn=document.querySelector("#mobPage2btn");
-const mobPage3btn=document.querySelector("#mobPage3btn");
-const mobPage4btn=document.querySelector("#mobPage4btn");
-const mobPageHomebtn=document.querySelector("#mobPageHomebtn");
-
-const page1btn=document.querySelector("#page1btn");
-const page2btn=document.querySelector("#page2btn");
-const page3btn=document.querySelector("#page3btn");
-const page4btn=document.querySelector("#page4btn");
-const pageHomebtn=document.querySelector("#pageHomebtn");
 const allpages=document.querySelectorAll(".page"); //reference all pages
 //Audio for webside
 const gameDeathSfx = new Audio("audio/boom.wav");
@@ -417,5 +405,6 @@ function JustToGetRidOfUselessWarning()
 	{
 	clearInterval(gameTick);
 	clearInterval(spawnMeteor);
+	clearInterval(animatePlayer);
 	}
 }
