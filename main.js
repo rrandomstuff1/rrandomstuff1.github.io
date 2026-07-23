@@ -36,6 +36,7 @@ show("Home");
 
 
 
+
 //gear icon/mobile nav button for mobile code
 const gearIcon=document.querySelector("#gearIcon");
 const mobNavBar=document.querySelector(".hideMobNavSideBar");
@@ -223,7 +224,7 @@ const animatePlayer = setInterval(Animate, 200);
 function Animate() //Animate the player sprite
 {
 	playerFrame = (playerFrame + 1) % 2;
-    player.style.backgroundPositionX = -(playerFrame * -100) + "%";
+    player.style.backgroundPositionX = (playerFrame * 100) + "%";
 }
 //Player movement detection
 //Pc movement////////////////////////////////////////
